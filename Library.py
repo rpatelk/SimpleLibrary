@@ -1,32 +1,32 @@
-import Book
+from Book import Book
 class Library:
 
     __libraryName = ""
     __address = ""
     __listOfBooks = []
 
-    def __init__(libraryName, address, listOfBooks):
-        setLibraryName(libraryName)
-        setAddress(address)
-        setListOfBooks(listOfBooks)
+    def __init__(self, libraryName, address, listOfBooks):
+        self.setLibraryName(libraryName)
+        self.setAddress(address)
+        self.setListOfBooks(listOfBooks)
 
     # Getter and Setter methods for each variable.
 
-    def getLibraryName():
+    def getLibraryName(self):
         return self.__libraryName
 
-    def setLibraryName(libraryName):
+    def setLibraryName(self, libraryName):
         self.__libraryName = libraryName
 
-    def getAddress():
+    def getAddress(self):
         return self.__address
 
-    def setAddress(address):
+    def setAddress(self, address):
         self.__address = address
 
-    def getListOfBooks():
-        return self.listOfBooks
+    def getListOfBooks(self):
+        return self.__listOfBooks
 
-    def setListOfBooks(listOfBooks):
+    def setListOfBooks(self, listOfBooks):
         self.__listOfBooks = listOfBooks
 
