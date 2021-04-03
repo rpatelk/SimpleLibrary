@@ -1,10 +1,15 @@
 from Book import Book
+
+# Class that contaians the Object for Library
+# @author Raj Patel
 class Library:
 
+    # Important library infromation including book list.
     __libraryName = ""
     __address = ""
     __listOfBooks = []
 
+    # Library class constructor
     def __init__(self, libraryName, address, listOfBooks):
         self.setLibraryName(libraryName)
         self.setAddress(address)

@@ -1,11 +1,15 @@
+# Class that contaians the Object for Book
+# @author Raj Patel
 class Book:
 
+    # Important information about a book
     __name = ""
     __author = ""
     __genre = ""
     __unqiueId = ""
     __checkedIn = True
 
+    # Book class constructor
     def __init__(self, name, author, genre, unqiueId):
         self.setName(name)
         self.setAuthor(author)
@@ -44,6 +48,7 @@ class Book:
     def setCheckedIn(self, checkedIn):
         self.__checkedIn = checkedIn
 
+    # Method that prints out relevant book information as a string.
     def toString(self):
         status = ""
         if self.__checkedIn == True:
