@@ -95,7 +95,7 @@ def main():
         elif num == "4":
             checkOut()
 
-        elif num == "4":
+        elif num == "5":
             return
 
     
