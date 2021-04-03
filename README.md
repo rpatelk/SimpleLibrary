@@ -7,5 +7,5 @@ or
 python LibraryTest.py
 in the directory containing the file.
 
-To update application infromation regarding books and libraries, pplease update the generate method
+To update application infromation regarding books and libraries, please update the generate method
 in SimpleLibrary.py
